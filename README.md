@@ -1,4 +1,7 @@
 # FAB-LAB-MODULES-
 This project is a simple website created using HTML and CSS. It shows basic web design elements like layout, styling, and structure. The project is made for learning and practicing front-end development.
 
-FIRST PROJECT : PORTFULLIO
+AUTHOR : Kaustubh P Bule 
+mModule : WEB DEVOLEPMENT 
+FIRST PROJECT : PORTFULLIO 
+
