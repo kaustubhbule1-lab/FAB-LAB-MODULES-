@@ -3,7 +3,7 @@ This project is a simple website created using HTML and CSS. It shows basic web 
 
 AUTHOR : Kaustubh P Bule <br>
 <br>
-mModule : WEB DEVOLEPMENT <br>
+Module : WEB DEVOLEPMENT <br>
 <br>
 FIRST PROJECT : PORTFULLIO 
 
