@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<!-- saved from url=(0043)file:///C:/Users/win11/Downloads/index.html -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Kaustubh Portfolio</title>
 
@@ -11,27 +11,31 @@ body {
     color: white;
 }
 
-/* Container */
+
 .container {
     max-width: 900px;
     margin: auto;
     padding: 20px;
-}
-
-/* Logo */
-.logo {
     text-align: center;
 }
 
-/* Profile Image */
+
+.logo img {
+    width: 180px;
+    margin-bottom: 10px;
+}
+
+
 .profile img {
-    width: 120px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
-    display: block;
+    border: 4px solid #38bdf8;
+    object-fit: cover;
     margin: 10px auto;
 }
 
-/* Card */
+
 .card {
     background: white;
     color: black;
@@ -40,7 +44,6 @@ body {
     margin: 10px 0;
 }
 
-/* Boxes */
 .box {
     background: #38bdf8;
     padding: 15px;
@@ -61,7 +64,6 @@ body {
     background: #22c55e;
     padding: 12px;
     border-radius: 10px;
-    text-align: center;
     cursor: pointer;
     margin: 10px auto;
     width: 200px;
@@ -124,17 +126,19 @@ function toggle(id) {
 <body>
 
 <!-- HOME -->
-<div id="home" class="container">
+<div id="home" class="container" style="display: block;">
 
+<!-- ✅ LOGO -->
 <div class="logo">
-    <img src="./Kaustubh Portfolio_files/fablab.png" width="250">
+    <img src="file:///C:/Users/win11/Downloads/index_files/logo.jpeg" alt="FabLab Logo">
 </div>
 
+<!-- ✅ PROFILE PHOTO -->
 <div class="profile">
-    <img src="./Kaustubh Portfolio_files/profile.png">
+    <img src="file:///C:/Users/win11/Downloads/index_files/photo.jpeg" alt="Profile Photo">
 </div>
 
-<h1 style="text-align:center;">Kaustubh Bule</h1>
+<h1>Hello, I'm Kaustubh Bule</h1>
 
 <!-- BUTTONS -->
 <div class="btn" onclick="showSection(&#39;modules&#39;)">View My Work</div>
@@ -142,53 +146,18 @@ function toggle(id) {
 
 <!-- PERSONAL INFO -->
 <div class="box" onclick="toggle(&#39;info&#39;)">Personal Information</div>
-<div id="info" class="card hidden">
+<div id="info" class="card hidden" style="display: none;">
 <p>Name: Kaustubh Pandit Bule</p>
-<p>Phone: Your Number</p>
-<p>Email: Your Email</p>
-<p>Address: Your Address</p>
-<p>LinkedIn: Your Link</p>
-<p>Instagram: Your Link</p>
+<p>Phone: 9209315142</p>
+<p>Email: kaustubhbule1@gmail.com</p>
+<p>Address: Mane Nagar Shegaon</p>
 </div>
 
 <!-- AGREEMENT -->
 <div class="box" onclick="toggle(&#39;agreement&#39;)">FabLab Student Agreement</div>
-<div id="agreement" class="card hidden">
-<p>📜 FabLab Student Agreement
-
-The FabLab, SSGMCE is responsible for:
-	•	Teaching principles and practices of digital fabrication
-	•	Arranging lectures, recitations, meetings, and events for the class
-	•	Evaluating and providing feedback on student work
-	•	Offering clear standards for completing assignments
-	•	Certifying and archiving student progress
-	•	Supervising class preparation
-	•	Reviewing prospective students, instructors, and labs
-	•	Providing central staff and infrastructure for students, instructors, and labs
-	•	Fund-raising for costs not covered by student tuition
-	•	Managing and reporting on the program’s finances, results, and impacts
-	•	Publicizing the program
-
-
-I am a FabLab, SSGMCE student, responsible for:
-	•	Attending class lectures and participating in reviews
-	•	Developing and documenting projects assigned to introduce and demonstrate skills
-	•	Honestly reporting on my work, and appropriately attributing the work of others
-	•	Working safely
-	•	Leaving workspaces in the same (or better) condition than I found them
-	•	Participating in the upkeep of my lab
-	•	Ensuring that my tuition to cover local and central class costs is covered
-	•	Following locally applicable health and safety guidance
-	•	Promoting a respectful environment free of harassment and discrimination
-
-
-✍️ Declaration
-
-Signed by committing this file in my repository,
-
-Name: Kaustubh Pandit Bule</p>
+<div id="agreement" class="card hidden" style="display: none;">
+<p>📜 FabLab Student Agreement...</p>
 </div>
-
 
 <div class="card">
 <h2>About Me</h2>
@@ -201,27 +170,28 @@ I'm looking to grow my skills through hands-on projects.
 
 </div>
 
-
-<div id="modules" class="container hidden">
+<!-- MODULES -->
+<div id="modules" class="container hidden" style="display: none;">
 
 <h1>Modules</h1>
 <div class="btn" onclick="showSection(&#39;home&#39;)">⬅ Back</div>
 
 <div class="box" onclick="toggle(&#39;webDev&#39;)">Web Development</div>
 
-<div id="webDev" class="hidden">
+<div id="webDev" class="hidden" style="display: block;">
 
-<h2>7 Days Projects</h2>
+<h2>All 7 Days Work</h2>
+
 
 <div class="project">
-<img src="./Kaustubh Portfolio_files/day1.png">
+<img src="file:///C:/Users/win11/Downloads/index_files/day1.png">
 <h3>Day 1 – Basic HTML</h3>
 <p>Basic tags like p, b, i, marquee.</p>
 <a href="http://127.0.0.1:5500/day1.html" target="_blank">Open Project</a>
 </div>
 
 <div class="project">
-<img src="./Kaustubh Portfolio_files/day2.png">
+<img src="file:///C:/Users/win11/Downloads/index_files/day2.png">
 <h3>Day 2 – Image,audio &amp; video</h3>
 <p>Images, links, video,.</p>
 <a href="http://127.0.0.1:5500/day2.html" target="_blank">Open Project</a>
@@ -235,42 +205,43 @@ I'm looking to grow my skills through hands-on projects.
 </div>
 
 <div class="project">
-<img src="./Kaustubh Portfolio_files/day3.png">
+<img src="file:///C:/Users/win11/Downloads/index_files/day3.png">
 <h3>Day 4 – Forms</h3>
 <p>Form creation.</p>
 <a href="http://127.0.0.1:5500/day3.html" target="_blank">Open Project</a>
 </div>
 
 <div class="project">
-<img src="./Kaustubh Portfolio_files/day4.png">
+<img src="file:///C:/Users/win11/Downloads/index_files/day4.png">
 <h3>Day 5 – Layout</h3>
 <p>Header, nav, footer.</p>
 <a href="http://127.0.0.1:5500/day4.html" target="_blank">Open Project</a>
 </div>
 
 <div class="project">
-<img src="./Kaustubh Portfolio_files/day5.png">
+
 <h3>Day 6 – Flexbox</h3>
 <p>Box model and layout.</p>
 <a href="http://127.0.0.1:5500/day5.html" target="_blank">Open Project</a>
 </div>
 
 
-
-
-<div class="project">
-
+ <div class="project">
 <h3>Day 7  -  To-Do App</h3>
 <p>Final project.</p>
 <a href="http://127.0.0.1:5500/todolist.html" target="_blank">Open Project</a>
 </div>
 
-</div>
+
+
+
+
 
 </div>
+</div>
 
-
-<div id="contact" class="container hidden">
+<!-- CONTACT -->
+<div id="contact" class="container hidden" style="display: none;">
 
 <h1>Contact</h1>
 
@@ -278,7 +249,7 @@ I'm looking to grow my skills through hands-on projects.
 <p>Name: Kaustubh Pandit Bule</p>
 <p>Phone: 9209315142</p>
 <p>Email: kaustubhbule1@gmail.com</p>
-<p>ADDRESS: Mane Nagar Shegaon </p>
+<p>Address: Mane Nagar Shegaon</p>
 </div>
 
 <div class="btn" onclick="showSection(&#39;home&#39;)">⬅ Back</div>
@@ -323,7 +294,5 @@ I'm looking to grow my skills through hands-on projects.
 	}
 	// ]]>
 </script>
-
-
 
 </body></html>
